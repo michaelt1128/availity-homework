@@ -36,11 +36,6 @@ const RegistrationForm = () => {
     setLoading: store.setLoading,
     setRegistered: store.setRegistered
   }));
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [npi, setNpi] = useState('');
-  const [address, setAddress] = useState('');
-  const [email, setEmail] = useState('');
 
   const handleSubmit = async (values, { resetForm }) => {
     setLoading(true);
@@ -54,11 +49,11 @@ const RegistrationForm = () => {
     <Card body>
       <Form
         initialValues={{
-          firstName,
-          lastName,
-          npi,
-          address,
-          email,
+          firstName: '',
+          lastName: '',
+          npi: '',
+          address: '',
+          email: '',
         }}
         validationSchema={schema}
         onSubmit={handleSubmit}
