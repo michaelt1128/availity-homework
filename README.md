@@ -1,10 +1,10 @@
-* Problem 4
+## Problem 4
 
 `node lispChecker.js`
 
 Replace the input with other test data.
 
-* Problem 5
+## Problem 5
 
 `cd workflow-app`
 
@@ -12,7 +12,7 @@ Replace the input with other test data.
 
 `yarn start`
 
-* Problem 6
+## Problem 6
 
 `cd fileReader`
 
